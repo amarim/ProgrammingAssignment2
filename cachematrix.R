@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function create a list with property of calculate a matrix inverse, get e set
 
 makecachematrix <- function(m = matrix()) {
  i <- NULL
@@ -20,7 +20,7 @@ makecachematrix <- function(m = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function receive a list with a matrix and return a inverse matrix
 
 cacheSolve <- function(m, ...) {
   i <- m$getInverse()
